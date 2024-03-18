@@ -2,7 +2,6 @@ import { Keypair } from "@solana/web3.js";
 import "dotenv/config";
 
 function App() {
-
   // Cria um novo par de chaves
   const keypair = Keypair.generate();
 
