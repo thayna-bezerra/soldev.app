@@ -10,8 +10,8 @@ console.log(`The secret key is: `, keypair.secretKey);
 console.log(`✅ Finished!`);
 
 // CARREGANDO UM PAR DE CHAVES EXISTENTE
-//const keypairExists = getKeypairFromEnvironment("SECRET_KEY");
+const keypairExists = getKeypairFromEnvironment("SECRET_KEY");
 
-//console.log(
-//  `✅ Finished! We've loaded our secret key securely, using an env file!`
-//);
+console.log(
+  `✅ Finished! We've loaded our secret key securely, using an env file!`
+);
